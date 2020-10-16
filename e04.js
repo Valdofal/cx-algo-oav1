@@ -63,7 +63,6 @@ function shift(array){
     for(let i = 0; i < array.length -1; i++){
         resultArray[i] = array[i+1]
     }
-    resultArray[array.length] = array[0]
     return(resultArray)
 }
 
